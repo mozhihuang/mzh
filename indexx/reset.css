@@ -1,0 +1,39 @@
+.leftfix{
+    float:left;
+}
+.rightfix{
+    float:right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cleanfix{
+    float:none;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(255, 0, 0, 0.788);
+}
+.top-nav-right .arrangment li a:hover{
+    color:red;
+}
+li{
+    list-style-type:none;
+}
+body{
+    margin: 0;
+    z-index: 2;
+}
+.main-content .main-content-navleft .second-meum dd,dt{
+    float:left;
+}
+.colorStyle{
+    color:red;
+
+    font-style: oblique;
+}
