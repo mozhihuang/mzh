@@ -1,0 +1,424 @@
+/* #region  版心 背景板 */
+.bk{
+    width: 1200px;
+    margin: 0 auto;
+}
+.back-ground{
+    height:5000px;
+    margin-top: -14px;
+    background-color: rgba(102, 102, 102, 0.072);
+}
+/* #endregion */
+/* #region 顶部导航条 */
+    .top-nav{
+    background-color:#ECECEC;
+    height:30px;
+    border-radius: 10px 10px 0 0;
+}
+/* 顶部导航条左侧导航样式 */
+.top-nav-left{
+    background-color:#ECECEC;
+    font-size: 12px;
+}
+.top-nav-left span,.top-nav-left a{
+    line-height: 30px;
+    color: #666;
+}
+.top-nav-left span{
+    margin-right: 15px;
+}
+/* 登录 */
+.top-nav-left .land{
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+/* 注册 */
+.top-nav-left .register{
+    padding-left: 10px;
+}
+/* 顶部导航条右侧导航样式 */
+.top-nav-right .arrangment li {
+    float :right;
+    font-size: 12px;
+}
+/* 顶部导航条 a链接 右边距 */
+.top-nav-right .arrangment li a{
+    color:#666;
+    margin-right: 10px;
+    padding-right:10px;
+    border-right: 1px solid #66666651;
+}
+.top-nav-right .arrangment li:first-child a{
+    padding-right: 0;
+    border-right: 0 ;
+}
+.top-nav-right .arrangment{
+    height:30px;
+    line-height: 30px;
+    margin: 0;
+}
+/* #endregion */
+/* #region 头部样式 */
+.header{
+    height: 163px;
+}
+/* Logo样式 */
+.Logo{
+    width: 200px;
+    margin-right: 150px;
+}
+.header .search{
+    margin-top: 50px;
+    font-size: 0;
+}
+/* 输入框 */
+.header .bk .search .inputBox{
+    width:500px;
+    height:40px;
+    border: 2px solid red;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+/* 按钮 */
+.header .bk .search .searchButton{
+    width:70px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    vertical-align: top;
+    background-image: url('./searchLogo.png');
+    background-repeat: no-repeat;
+    background-position: 20px 5px;
+    
+}
+.header .bk .my{
+    margin-right: 120px;
+    height: 35px;
+
+}
+.header .bk .my a{
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    width:100px;
+    line-height: 35px;
+    color:rgba(255, 0, 0, 0.952);
+    padding: 0 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .bk .my a:hover{
+    background-color: rgba(255, 0, 0, 0.89);
+    color:white;
+}
+/* #endregion */
+/* #region 主导航 */
+.main-nav{
+    height: 50px;
+    border-bottom: 2px solid rgb(241, 1, 128);
+}
+.main-nav .bk .itemSort{
+    border: 2px rgb(241, 1, 128) solid;
+    height:46px;
+    width: 200px;
+    text-align: center;
+    line-height: 47px;
+    background-color: rgb(241, 1, 128);
+    color:white;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.main-nav .itemSortright li{
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+    text-align: center;
+} 
+.main-nav .itemSortright{
+    height:50px;
+    line-height:50px;
+    margin-top: 0;
+}
+/* #endregion */
+/* #region 左侧主要内容样式 */
+.main-content{
+    height: 500px;
+}
+.main-content .main-content-navleft{
+    height:500px;
+    width:204px;
+    position: relative;
+}
+/* a标签样式 */
+.main-content .main-content-navleft li>a{
+    margin-left: 0px;
+    color:black;
+}
+/* li标签样式 */
+.main-content .main-content-navleft li{
+    height: 35;
+    line-height: 35px;
+    padding-left: 15px;
+    font-size: 14px;
+    background-color:white;
+}
+/* 悬浮格子时的样式 */
+.main-content .main-content-navleft li:hover{
+    background-color:rgba(128, 128, 128, 0.12);
+}
+/* 二级导航二级文字颜色 */
+.main-content .main-content-navleft .second-meum dd a{
+    color:rgba(0, 0, 0, 0.654);
+}
+/* 悬浮a标签时的样式*/
+.main-content .main-content-navleft li a:hover{
+    color:red;
+}
+/* #endregion */
+/* #region 左侧二级导航 */
+.second-meum{
+    height:490px;
+    width: 790px;
+    position: absolute;
+    top:0;
+    left:204px;
+    background-color:white;
+    border: 1.5px solid rgba(128, 128, 128, 0.12);
+    box-shadow:3px 3px 5px rgba(128, 128, 128, 0.682);
+    display: none;
+    z-index: 10;
+}
+.main-content .main-content-navleft li:hover .second-meum{
+    display:block;
+}
+.main-content .main-content-navleft .second-meum dd{
+    margin: 0 7px;
+}
+
+.main-content .main-content-navleft .second-meum .lable2{
+    margin-right: 15px;
+    margin-left: 45px;
+    font-weight: bold;
+  
+}
+.main-content .main-content-navleft .second-meum .lable4{
+    margin-right: 15px;
+    margin-left: 18px;
+    font-weight: bold;
+}
+.newline{
+    margin-left: 103px;
+}
+/* #endregion */
+/* #region 中间样式 */
+.main-content .maincontentNavBanner{
+    height: 490px;
+    width: 700px;
+    margin:5px 6px;
+}
+/* #endregion */
+/* #region 右侧样式*/
+.main-content .main-content-navright{
+    margin-top: 5px;
+    background-color:white;
+    height: 490px;
+    width:280px;
+}
+/* 快报 */
+.main-content .main-content-navright .express{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* 更多 */
+.main-content .main-content-navright a{
+    font-size: 13px;
+    margin-right: 10px;
+    height:40px;
+    line-height:40px;
+
+}
+/* 快报上部分 */
+.main-content .main-content-navright .expressBox{
+    height:40px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.312);
+}
+/* 快报上部分盒子下部实线 */
+.main-content .main-content-navright .contentBox{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.312);
+    height:150px;
+}
+.main-content .main-content-navright .contentBox li{
+    float:left;
+    margin-left: 15px;
+    height:30px;
+}
+.main-content .main-content-navright .contentBox li a{
+line-height: 30px;
+}
+/* 特惠 加重词语 */
+.main-content .main-content-navright .contentBox li a span{
+    font-weight:bold;
+    color:rgba(255, 0, 0, 0.935);
+}
+.main-content .main-content-navleft .second-meum span{
+    float:left;
+    margin-left:100px;
+}
+/* #endregion */
+/* #region右导航下区高度设置 */
+.button-nav{
+    height:300px;
+}
+/* 促销 */
+.button-nav .promate{
+    height:40px;
+    width: 280px;
+    text-align: center;
+    line-height: 40px;
+   padding-top: 10px;
+}
+/* 促销 文本样式 */
+.button-nav .promate span{
+font-weight: 550;
+font-size: 20px;
+font-style:oblique;
+color:rgba(255, 0, 0, 0.818);
+}
+/* 促销 左右logo设置 */
+.button-nav .promate img{
+    width:40px;
+}
+/* 促销商品大小设置 */
+.imageItem{
+    width:90px;
+}
+/* 促销商品 文本样式 */
+.button-nav .promateItem span{
+    height:82.4px;
+    width:170px;
+    line-height: 25px;
+}
+/* 促销商品前价格 */
+.button-nav .promateItem .promateItem-price-before{
+    color:rgba(0, 0, 0, 0.856);
+    text-decoration-line: line-through;
+    font-weight: bold;
+}
+/* 促销商品后价格 */
+.button-nav .promateItem .provateItem-price-after{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+}
+/* #endregion */
+/* #region 抢购 */
+/* 抢购图标 */
+.snapUp{
+    margin-top: 100px;
+    height:100px;
+    text-align: center;
+}
+/* 抢购界面背景 */
+.background-snapItem{
+    height:4250px;
+    background-color:white;
+    border-radius: 20px 20px 20px 20px;
+}
+/* 抢购商品图片 */
+.snapItem-image{
+    border-radius: 10px 10px 10px 10px;
+    width:200px;
+}
+/* 鼠标悬浮时样式 */
+.snapItemList .background-snapItem .snapBK a:hover{
+    color:black;
+}
+/* 鼠标悬浮时显示红色边框 */
+.snapItemList .background-snapItem a div{
+   border:1px solid white;
+}
+.snapItemList .background-snapItem a:hover>div{
+    border: 1px red solid;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.9;
+    padding: 0;
+}
+.guestYouLove{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: aquamarine;
+    margin: 10px 30px 30px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    background-color:rgba(255, 0, 0, 0.839);
+}
+.aaq{
+    display: inline-block;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    width:95px;
+    margin-bottom: 15px;
+    border:1px solid rgba(255, 0, 0, 0.209);
+    color:#c81623;
+}
+.guestYouLove-bk{
+    padding-top: 15px;
+    margin-top:20px;
+    display: inline-block;
+    width: 222px;
+    height:310px;
+    vertical-align:top;
+    background-image: url('https://tse4-mm.cn.bing.net/th/id/OIP-C.L3mS-rrkNIuikJtm5Jnz9gHaEK?rs=1&pid=ImgDetMain');
+    border-radius: 20px;
+    background-position: center;
+}
+.aaq:hover{
+    background-color: #c81623;
+    color:white;
+}
+/* #endregion */
+
+/* 中间界面左按钮 */
+.main-content .maincontentNavBanner .leftbtn{
+    position:absolute;
+    top:45%;
+    left:0px;
+    height:40px;
+    width:25px;
+    border-radius: 0 40px 40px 0;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.144);
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.764);
+    z-index: 1;
+}
+/* 中间界面右按钮 */
+.main-content .maincontentNavBanner .rightbtn{
+    position:absolute;
+    top:45%;
+    right:0px;
+    height:40px;
+    width:25px;
+    border-radius: 40px 0 0 40px;
+    border:none;
+    background-color:  rgba(0, 0, 0, 0.144);
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.764);
+    z-index: 1;
+}
+/* 左右按钮悬浮时 */
+.main-content .maincontentNavBanner button:hover{
+    background-color: rgba(0, 0, 0, 0.243);
+}
